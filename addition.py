@@ -32,17 +32,18 @@ while num_question <nb_questions:
     # Addition
     z=x+y
     print("-----------------------------")
-    print(x,"+",y,"=")
-    input_reponse = input("Votre réponse : ")
+    
+    equation=""+str(x)+" + "+str(y)+" = "
+    input_reponse = input(equation)
     
     if not input_reponse:
         break
     
     if (z==int(input_reponse)):
-        print (color.GREEN, x,"+",y,"=",z, "😋", color.END)
+        print (color.GREEN,"😋",color.END)
         points=points+1
     else:
-        print(color.RED,x,"+",y,"=",z, " ≠ ",input_reponse, " 😥", color.END)
+        print(color.RED,"😥 ",x,"+",y,"=",z,color.END)
 
 stop = timeit.default_timer() # arrêt du chrono
 chrono=stop-start
