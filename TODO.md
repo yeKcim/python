@@ -1,2 +1,3 @@
-- [ ] Meilleur calcul du score
-- [ ] Arrêter while quand réponse vide, pas de demande de nombre de questions au départ
+- [ ] Meilleur calcul du score ?
+- [x] Arrêter while quand réponse vide, pas de demande de nombre de questions au départ
+- [ ] Vérification réponse int (http://stackoverflow.com/questions/5424716/python-how-to-check-if-input-is-a-number)
