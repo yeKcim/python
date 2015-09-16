@@ -16,7 +16,7 @@ points=0 # initialisation du score
 num_question=0 # initialisation du compte du numéro de question
 
 default_nb_questions=10
-question_nb_questions="Combien de questions ["+str(default_nb_questions)+"] ?"
+question_nb_questions="Combien de questions ["+str(default_nb_questions)+"] ? "
 input_nb_questions = input(question_nb_questions)
 if input_nb_questions:
     nb_questions=int(input_nb_questions)
