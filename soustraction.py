@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Anthony CARRÉ
-Révision de tables d’addition
+Révision de tables de soustraction
 """
 from random import randint
 import timeit
@@ -17,7 +17,7 @@ points=0 # initialisation du score
 num_question=1 # initialisation du compte du numéro de question
 
 print(color.BLUE)
-print("#############  Tables d’addition  #############",color.END)
+print("#############  Tables de soustraction  #############",color.END)
 print("Laisser vide la réponse et valider pour arrêter\n")
 
 start = timeit.default_timer() # initialisation du chrono
